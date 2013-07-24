@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "http://appunite.com/"
   spec.license      = 'Apache 2.0'
   spec.author       = { "emil.wojtaszek" => "emil@appunite.com" }
-  spec.source       = { :git => 'https://review.appunite.com/iosaukit.git' }
+  spec.source       = { :git => 'https://review.appunite.com/iosaukit.git', :commit => 'ae1b4ce95d686ea771085091a529bd26b3146501' }
   spec.requires_arc = true
   #spec.source      = { :git => "http://EXAMPLE/AUKit.git", :tag => "0.0.1" }
   
