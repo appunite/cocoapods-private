@@ -15,14 +15,13 @@ Pod::Spec.new do |spec|
     ss.platform     = :ios, '5.0'
     ss.source_files = 'Classes/**/*.{h,m}', 'Classes'
 
-    ss.dependency 'AFNetworking'
+    ss.dependency 'AFNetworking', '~> 1.3.1'
     ss.dependency 'SSKeychain', '~> 1.0.2'
-    ss.dependency 'UIDeviceAddition'
-    ss.dependency 'Facebook-iOS-SDK'
+    ss.dependency 'UIDeviceAddition', '~> 1.0'
+    ss.dependency 'Facebook-iOS-SDK', '~> 3.6.0'
     ss.dependency 'NSData+Base64'
     ss.dependency 'ODRefreshControl-appunite'
     ss.dependency 'AFOAuth1Client-appunite'
     #ss.resources    = "Resources/AUKit.bundle/"
-
   end
 end
