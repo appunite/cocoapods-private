@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name        = "OWActivityViewController-appunite"
   s.summary     = 'Open source alternative to UIActivityViewController, highly customizable and compatible with iOS 5.0.'
-  s.version     = '1.6'
+  s.version     = '1.6.1'
   s.author      = { "Brant Young" => "https://github.com/brantyoung" }
   s.homepage    = 'https://github.com/aaronsakowski/OWActivityViewController.git'
   s.source      = { :git => "https://github.com/appunite/OWActivityViewController.git" }
