@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.author       = 'Andrii Mamchur'
 
   s.source       = { git: "https://github.com/amamchur/jsonlite.git", branch: "master" }
-  s.source_files  = 'jsonlite/src/*.c', 'jsonlite/**/*.{h}', 'objc.{h,m}'
+  s.source_files  = 'jsonlite/src/*.c', 'jsonlite/**/*.{h}', 'objc/*.{h,m}'
   #s.exclude_files = 'Examples'
 
   s.public_header_files = 'objc/*.h'
