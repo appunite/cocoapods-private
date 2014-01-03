@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TBXML+NSDictionary"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "XML to NSDictionary through TBXML."
   s.homepage     = "https://github.com/mackoj/TBXML-NSDictionary"
   s.license      = {
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   }
 
   s.author       = { "Jeffrey Macko" => "dev@macko.fr" }
-  s.source       = { :git => "https://github.com/appunite/TBXML-NSDictionary.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/appunite/TBXML-NSDictionary.git", :tag => "0.0.3" }
   s.platform     = :ios, '5.0'
   s.source_files = 'TBXML+NSDictionary/*.{h,m}'
   s.requires_arc = true
