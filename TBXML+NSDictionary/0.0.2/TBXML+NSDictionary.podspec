@@ -27,5 +27,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.0'
   s.source_files = 'TBXML+NSDictionary/*.{h,m}'
   s.requires_arc = true
-  s.dependency 'TBXML', '~> 1.55'
+  s.dependency 'TBXML', '~> v1.6'
 end
