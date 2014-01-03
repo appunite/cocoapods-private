@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'TBXML'
-  s.version  = 'v1.6'
+  s.version  = '1.6'
   s.license  = 'MIT'
   s.summary  = 'Super-fast, lightweight, easy to use XML parser for the Mac & iOS.'
   s.homepage = 'http://www.tbxml.co.uk'
