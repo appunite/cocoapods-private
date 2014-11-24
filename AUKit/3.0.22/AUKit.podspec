@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "AUKit"
-  spec.version      = "3.0.21"
+  spec.version      = "3.0.22"
   spec.summary      = "Internal framework of AppUnite."
   spec.homepage     = "http://appunite.com/"
   spec.license      = 'Apache 2.0'
