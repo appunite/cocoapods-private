@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
     ss.dependency 'ODRefreshControl-appunite'
     ss.dependency 'AFOAuth1Client-appunite'
     ss.dependency 'SBJson', '~> 3.2'
-    ss.dependency 'libwebp'
+    ss.dependency 'libwebp', '~> 0.4.2'
     ss.dependency 'uiimage-from-animated-gif', '~> 1.0.1'
     #ss.resources    = "Resources/AUKit.bundle/"
   end
