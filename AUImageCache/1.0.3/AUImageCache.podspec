@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
     ss.source_files = 'AUImageCache/AUImageCache/*.{h,m}', 'Classes'
 
     ss.dependency 'AFNetworking', '> 2.1'
-    ss.dependency 'libwebp', '= 0.4.1.1'
+    ss.dependency 'libwebp'
     ss.dependency 'uiimage-from-animated-gif', '~> 1.0.1'
   end
 end
