@@ -33,9 +33,9 @@
   },
   "header_dir": "leveldb",
   "source_files": [
-    "db/*.{cc}",
-    "port/*.{cc}",
-    "table/*.{cc}",
+    "db/*.{h,cc}",
+    "port/*.{h,cc}",
+    "table/*.{h,cc}",
     "util/*.{h,cc}",
     "include/leveldb/*.h"
   ],
