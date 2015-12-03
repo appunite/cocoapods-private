@@ -32,10 +32,6 @@
   "source_files": [
     "include/leveldb/*",
 
-    "util/*.{h}",
-    "table/*.{h}",
-    "port/*.{h}",
-    "db/*.{h}",
 
     "db/builder.cc",
     "db/c.cc",
