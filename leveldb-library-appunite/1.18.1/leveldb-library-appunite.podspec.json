@@ -36,6 +36,7 @@
     "table/block.h",
     "table/block_builder.h",
     "util/hash.h",
+    "table/format.h",
 
     "db/builder.cc",
     "db/c.cc",
