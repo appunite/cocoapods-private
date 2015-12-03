@@ -20,19 +20,17 @@
     "-DLEVELDB_PLATFORM_POSIX"
   ],
   "preserve_paths": [
-    "db",
-    "port",
-    "table",
-    "util"
+    "leveldb-library"
   ],
   "xcconfig": {
     "CC": "clang",
     "CXX": "clang++",
-    "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/leveldb-library/include\"/** \"${PODS_ROOT}/leveldb-library/table\" \"${PODS_ROOT}/leveldb-library/util\"",
+    "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/Objective-LevelDB/leveldb-library\"",
     "OTHER_LDFLAGS": "-lc++"
   },
-  "header_dir": "leveldb-library/include",
+  "header_dir": "leveldb",
   "source_files": [
+    "leveldb-library/include/leveldb/*",
     "db/builder.cc",
     "db/c.cc",
     "db/db_impl.cc",
