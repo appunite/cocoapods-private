@@ -36,7 +36,7 @@
     "db/*.{cc}",
     "port/*.{cc}",
     "table/*.{cc}",
-    "util/*.{cc}",
+    "util/*.{h,cc}",
     "include/leveldb/*.h"
   ],
   "exclude_files": [
