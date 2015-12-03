@@ -74,7 +74,7 @@
   ],
   "public_header_files": [
     "include/leveldb/*.h",
-    "include/**.*"
+    "include/**/*.h"
   ],
   "exclude_files": [
     "**/*_test.cc",
