@@ -36,7 +36,11 @@
     "db/*.cc"
   ],
   "public_header_files": [
-    "include/leveldb/*.h"
+    "include/leveldb/*.h",
+    "db/*.h",
+    "port/*.h",
+    "table/*.h",
+    "util/*.h"
   ],
   "exclude_files": [
     "**/*_test.cc",
