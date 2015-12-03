@@ -31,7 +31,7 @@
     "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/leveldb-library/include\"/** \"${PODS_ROOT}/leveldb-library/table\" \"${PODS_ROOT}/leveldb-library/util\"",
     "OTHER_LDFLAGS": "-lc++"
   },
-  "header_dir": "include",
+  "header_dir": "leveldb-library/include",
   "source_files": [
     "db/builder.cc",
     "db/c.cc",
