@@ -30,7 +30,7 @@
   },
   "header_dir": "leveldb",
   "source_files": [
-    "leveldb-library-appunite/include/leveldb/*",
+    "include/leveldb/*",
     "db/builder.cc",
     "db/c.cc",
     "db/db_impl.cc",
