@@ -73,8 +73,8 @@
     "port/port_posix.cc"
   ],
   "public_header_files": [
-    "include/leveldb/*.h",
-    "include/**/*.h"
+    "include/leveldb/*.{h}",
+    "include/**/*.{h}"
   ],
   "exclude_files": [
     "**/*_test.cc",
