@@ -28,7 +28,7 @@
   "xcconfig": {
     "CC": "clang",
     "CXX": "clang++",
-    "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/leveldb-library/\" \"${PODS_ROOT}/leveldb-library/include\"",
+    "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/leveldb-library/\" \"${PODS_ROOT}/leveldb-library/include/\"",
     "OTHER_LDFLAGS": "-lc++"
   },
   "header_dir": "leveldb",
