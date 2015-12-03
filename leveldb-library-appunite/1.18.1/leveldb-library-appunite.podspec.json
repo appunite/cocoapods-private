@@ -35,6 +35,7 @@
     "util/arena.h",
     "table/block.h",
     "table/block_builder.h",
+    "util/hash.h",
 
     "db/builder.cc",
     "db/c.cc",
