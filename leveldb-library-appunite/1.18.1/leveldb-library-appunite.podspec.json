@@ -32,11 +32,10 @@
   "source_files": [
     "include/leveldb/*",
 
-    "util/arena.h",
-    "table/block.h",
-    "table/block_builder.h",
-    "util/hash.h",
-    "table/format.h",
+    "util/*.{h}",
+    "table/*.{h}",
+    "post/*.{h}",
+    "db/*.{h}",
 
     "db/builder.cc",
     "db/c.cc",
