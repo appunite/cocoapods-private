@@ -31,6 +31,11 @@
   "header_dir": "leveldb",
   "source_files": [
     "include/leveldb/*",
+
+    "util/arena.h",
+    "table/block.h",
+    "table/block_builder.h",
+
     "db/builder.cc",
     "db/c.cc",
     "db/db_impl.cc",
