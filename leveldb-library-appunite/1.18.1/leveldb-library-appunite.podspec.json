@@ -42,7 +42,6 @@
     "db/db_impl.cc",
     "db/db_iter.cc",
     "db/dbformat.cc",
-    "db/dumpfile.cc",
     "db/filename.cc",
     "db/log_reader.cc",
     "db/log_writer.cc",
@@ -55,7 +54,8 @@
     "table/block.cc",
     "table/block_builder.cc",
     "table/filter_block.cc",
-    "table/format.cc table/iterator.cc",
+    "table/format.cc",
+    "table/iterator.cc",
     "table/merger.cc",
     "table/table.cc",
     "table/table_builder.cc",
@@ -75,6 +75,7 @@
     "util/options.cc",
     "util/status.cc",
     "port/port_posix.cc"
+
   ],
   "public_header_files": [
     "include/leveldb/*.{h}",
