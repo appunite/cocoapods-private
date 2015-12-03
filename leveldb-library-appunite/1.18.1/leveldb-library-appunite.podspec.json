@@ -33,10 +33,7 @@
   },
   "header_dir": "leveldb",
   "source_files": [
-    "db/*.cc",
-    "port/*.cc",
-    "table/*.cc",
-    "util/*.cc"
+    "db/*.cc"
   ],
   "public_header_files": [
     "include/leveldb/*.h"
