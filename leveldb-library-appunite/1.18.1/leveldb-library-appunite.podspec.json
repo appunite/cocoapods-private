@@ -25,12 +25,12 @@
   "xcconfig": {
     "CC": "clang",
     "CXX": "clang++",
-    "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/Objective-LevelDB/leveldb-library\"",
+    "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/leveldb-library-appunite\"",
     "OTHER_LDFLAGS": "-lc++"
   },
   "header_dir": "leveldb",
   "source_files": [
-    "leveldb-library/include/leveldb/*",
+    "leveldb-library-appunite/include/leveldb/*",
     "db/builder.cc",
     "db/c.cc",
     "db/db_impl.cc",
