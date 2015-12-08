@@ -15,7 +15,7 @@
     "file": "LICENSE.txt"
   },
   "source": {
-    "http": "https://github.com/appunite/SinchRTC-3.8.0-lib/blob/master/Sinch-iOS-3.8.0-b67dab2.tar.bz2"
+    "http": "http://download.sinch.com/video/ios/Sinch-iOS-3.8.0-b67dab2.tar.bz2"
   },
   "ios": {
     "vendored_frameworks": "Sinch.framework"
