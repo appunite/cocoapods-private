@@ -9,7 +9,7 @@
     "Robert Payne": "robert@zwopple.com"
   },
   "source": {
-    "git": "https://github.com/appunite/PocketSocket/commits/master",
+    "git": "https://github.com/appunite/PocketSocket.git",
     "tag": "0.6.5",
     "submodules": false
   },
