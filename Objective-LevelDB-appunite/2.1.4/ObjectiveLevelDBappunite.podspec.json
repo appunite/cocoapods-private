@@ -1,5 +1,5 @@
 {
-  "name": "Objective-LevelDB-appunite",
+  "name": "ObjectiveLevelDBappunite",
   "version": "2.1.4",
   "license": "MIT",
   "summary": "A feature-complete wrapper for LevelDB in Objective-C.",
