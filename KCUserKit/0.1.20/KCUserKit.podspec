@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.dependency 'AFgzipRequestSerializer'
 
   # phone validation
-  s.dependency 'APAddressBook', '~> 0.2'
+  s.dependency 'APAddressBook', '~> 0.2.2'
   s.dependency 'libPhoneNumber-iOS', '~> 0.8'
 
   # storage
