@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   # Subspecs
   s.subspec 'webp' do |w|
-    w.header_dir   = 'webp'
+    # w.header_dir   = 'webp'
     w.source_files = 'src/webp/*.h'
   end
 
@@ -26,33 +26,33 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'utils' do |u|
-    u.header_dir   = 'utils'
+    # u.header_dir   = 'utils'
     u.dependency 'libwebp/core'
   end
 
   s.subspec 'dsp' do |dsp|
-    dsp.header_dir   = 'dsp'
+    # dsp.header_dir   = 'dsp'
     dsp.dependency 'libwebp/core'
   end
 
   s.subspec 'enc' do |enc|
-    enc.header_dir   = 'enc'
+    # enc.header_dir   = 'enc'
     enc.dependency 'libwebp/core'
   end
 
   s.subspec 'dec' do |dec|
-    dec.header_dir   = 'dec'
+    # dec.header_dir   = 'dec'
     dec.dependency 'libwebp/core'
   end
 
   s.subspec 'demux' do |demux|
-    demux.header_dir   = 'demux'
+    # demux.header_dir   = 'demux'
     demux.source_files = 'src/demux/*.{h,c}'
     demux.dependency 'libwebp/core'
   end
 
   s.subspec 'mux' do |mux|
-    mux.header_dir   = 'mux'
+    # mux.header_dir   = 'mux'
     mux.source_files = 'src/mux/*.{h,c}'
     mux.dependency 'libwebp/core'
   end
