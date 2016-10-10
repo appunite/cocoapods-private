@@ -17,5 +17,7 @@ Pod::Spec.new do |s|
   # Subspecs
   s.subspec 'webp' do |w|
     w.source_files = "src/utils/*.{h,c}", "src/dsp/*.{h,c}", "src/enc/*.{h,c}", "src/dec/*.{h,c}", 'src/webp/*.h'
+    w.private_header_files = "src/utils/*.h", "src/dsp/*.h", "src/enc/*.h", "src/dec/*.h", 'src/webp/*.h'
+
   end
 end
