@@ -14,47 +14,23 @@ Pod::Spec.new do |s|
     'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/libwebp/src'
   }
 
-  # Subspecs
-  s.subspec 'webp' do |w|
-    w.header_dir   = 'webp'
-    w.source_files = 'src/webp/*.h'
-  end
-
-  s.subspec 'core' do |core|
-    core.source_files = "src/utils/*.{h,c}", "src/dsp/*.{h,c}", "src/enc/*.{h,c}", "src/dec/*.{h,c}"
-    core.dependency 'libwebp/webp'
-  end
-
-  s.subspec 'utils' do |u|
-    # u.header_dir   = 'utils'
-    u.dependency 'libwebp/core'
+ s.subspec 'dec' do |dec|
+    dec.source_files = 'src/dec/*.{h,c}'
   end
 
   s.subspec 'dsp' do |dsp|
-    # dsp.header_dir   = 'dsp'
-    dsp.dependency 'libwebp/core'
+    dsp.exclude_files = 'src/dsp/enc*.c'
+    dsp.source_files = 'src/dsp/*.{h,c}'
   end
 
-  s.subspec 'enc' do |enc|
-    # enc.header_dir   = 'enc'
-    enc.dependency 'libwebp/core'
+  s.subspec 'utils' do |u|
+    u.exclude_files = 'src/utils/{bit_writer,huffman_encode,quant_levels}.{h,c}'
+    u.source_files = 'src/utils/*.{h,c}'
   end
 
-  s.subspec 'dec' do |dec|
-    # dec.header_dir   = 'dec'
-    dec.dependency 'libwebp/core'
+  s.subspec 'webp' do |w|
+    w.header_dir   = 'webp'
+    w.source_files = 'src/webp/{decode,types,format_constants,mux_types}.h'
   end
-
-  s.subspec 'demux' do |demux|
-    # demux.header_dir   = 'demux'
-    demux.source_files = 'src/demux/*.{h,c}'
-    demux.dependency 'libwebp/core'
-  end
-
-  s.subspec 'mux' do |mux|
-    # mux.header_dir   = 'mux'
-    mux.source_files = 'src/mux/*.{h,c}'
-    mux.dependency 'libwebp/core'
-  end
-  
+    
 end
