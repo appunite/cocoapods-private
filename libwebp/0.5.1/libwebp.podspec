@@ -14,16 +14,15 @@ Pod::Spec.new do |s|
     'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/libwebp/src'
   }
 
+  # Subspecs
+  s.subspec 'webp' do |w|
+    # w.header_dir   = 'webp'
+    w.source_files = 'src/webp/*.h'
+    w.dependency 'libwebp/core'
+  end
 
-    s.source_files = "src/utils/*.{h,c}", "src/dsp/*.{h,c}", "src/enc/*.{h,c}", "src/dec/*.{h,c}", "src/webp/*.h"
-    # s.dependency 'libwebp/webp'
+  s.subspec 'core' do |core|
+    core.source_files = "src/utils/*.{h,c}", "src/dsp/*.{h,c}", "src/enc/*.{h,c}", "src/dec/*.{h,c}"
+  end
 
-  # # Subspecs
-  # s.subspec 'webp' do |w|
-  #   w.header_dir   = 'webp'
-  #   w.source_files = 'src/webp/*.h'
-  # end
-
-  # s.subspec 'core' do |core|
-  # end
 end
