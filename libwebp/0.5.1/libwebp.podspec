@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   # Subspecs
   s.subspec 'webp' do |w|
-    # w.header_dir   = 'webp'
+    w.header_dir   = 'webp'
     w.source_files = 'src/webp/*.h'
   end
 
