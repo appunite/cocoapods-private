@@ -18,11 +18,13 @@ Pod::Spec.new do |s|
   s.subspec 'webp' do |w|
     w.header_dir   = 'webp'
     w.source_files = 'src/webp/*.h'
+    w.public_header_files = ''
   end
 
   s.subspec 'core' do |core|
     core.source_files = "src/utils/*.{h,c}", "src/dsp/*.{h,c}", "src/enc/*.{h,c}", "src/dec/*.{h,c}"
     core.dependency 'libwebp/webp'
+    core.public_header_files = ''
   end
 
   s.subspec 'utils' do |u|
