@@ -47,16 +47,16 @@ Pod::Spec.new do |s|
     dec.dependency 'libwebp/core'
   end
 
-  s.subspec 'demux' do |demux|
-    # demux.header_dir   = 'demux'
-    demux.source_files = 'src/demux/*.{h,c}'
-    demux.dependency 'libwebp/core'
-  end
+  # s.subspec 'demux' do |demux|
+  #   # demux.header_dir   = 'demux'
+  #   demux.source_files = 'src/demux/*.{h,c}'
+  #   demux.dependency 'libwebp/core'
+  # end
 
-  s.subspec 'mux' do |mux|
-    # mux.header_dir   = 'mux'
-    mux.source_files = 'src/mux/*.{h,c}'
-    mux.dependency 'libwebp/core'
-  end
+  # s.subspec 'mux' do |mux|
+  #   # mux.header_dir   = 'mux'
+  #   mux.source_files = 'src/mux/*.{h,c}'
+  #   mux.dependency 'libwebp/core'
+  # end
   
 end
