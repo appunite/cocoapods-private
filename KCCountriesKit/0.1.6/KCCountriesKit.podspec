@@ -13,6 +13,5 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.appunite.com'
   
   s.dependency 'AFNetworking', '>= 2.0'
-  s.dependency 'Mantle', '>= 2.0'
 
 end
