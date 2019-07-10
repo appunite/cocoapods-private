@@ -13,7 +13,6 @@ Pod::Spec.new do |s|
   s.frameworks       = 'MobileCoreServices'
   
   s.dependency 'NYXImagesKit'
-  s.dependency 'Mantle', '> 2.0'
   s.dependency 'SDAVAssetExportSession'
 
 end
